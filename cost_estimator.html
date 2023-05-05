@@ -15,7 +15,7 @@
 <body>
    <nav class="navbar sticky-top navbar-expand-lg">
        <div class="container-fluid">
-           <a class="navbar-brand" href="#">Resort</a>
+           <a class="navbar-brand" href="index.html">Resort</a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                aria-label="Toggle navigation">
@@ -27,10 +27,10 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Overnight Stay</a>
+                        <a class="nav-link active" href="cost_estimator.html">Overnight Stay</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dining</a>
+                        <a class="nav-link" href="dining.html">Dining</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Car Rental</a>
@@ -72,6 +72,10 @@
                 <label for="roomtype3">2-bedroom Suite</label>
             </fieldset>
 
+            <div id="messageDiv">
+
+            </div>
+
             <fieldset>
                 <legend>Discount options:</legend>
                 <input type="radio" id="discount1" name="discount" value="None">
@@ -82,9 +86,9 @@
                 <label for="discount3">Military</label>
             </fieldset>
 
-            <!-- Button -->
-            <button id="btnCalculate" onclick="calculateRoomPrice()">Calculate</button>
             <hr>
+
+            <!-- Display costs -->
             <div id="displayCost">
                 <div id="displayOrigRoomCost">
                     Room cost: XXX.XX
@@ -101,10 +105,14 @@
                 <div id="displayTotalWithTax">
                     Total cost incl. tax: XXX.XX
                 </div>
+
+                <div id="confirmNumber">
+                    Confirmation #: XXX-XXXXXX-X:X:X
+                </div>
             </div>
 
             <!-- Button -->
-            <button type="submit" id="btnSubmit">Submit</button>            
+            <button type="submit" class="btn btn-dark" id="btnSubmit">Calculate</button>            
         </form>
     </div>
    </main>

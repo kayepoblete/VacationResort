@@ -1,5 +1,5 @@
 body {
-    background-color: #E3DAC9;
+    background-color: #EFDECD !important;
 }
 
 nav {
@@ -9,8 +9,37 @@ nav {
     border-width: 1px;
 }
 
-nav a:hover {
+nav li:hover {
     border-bottom: solid;
+}
+
+.navbar-brand {
+    border-bottom:solid ;
+    border-bottom-color: #EFDECD;
+}
+
+header {
+    position: relative;
+    background-color: EFDECD;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #costForm {
@@ -18,10 +47,12 @@ nav a:hover {
     margin: 3% auto 3% auto;
 }
 
-
-
 h1, h3, div, label, legend {
     font-family: Optima, serif;
+}
+
+#messageDiv {
+    color: red;
 }
 
 p {
@@ -37,3 +68,4 @@ p {
 #displayTotalWithTax {
     font-weight: bold;
 }
+
