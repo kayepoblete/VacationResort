@@ -1,0 +1,18 @@
+body {
+    background-color: #E3DAC9;
+}
+
+nav {
+    font-family: Optima;
+    background-color: #EFDECD;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+nav a:hover {
+    border-bottom: solid;
+}
+
+p {
+    font-family: Optima;
+}
