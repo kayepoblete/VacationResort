@@ -47,7 +47,7 @@ header video {
     margin: 3% auto 3% auto;
 }
 
-h1, h3, div, label, legend {
+h1, h3, h5, div, label {
     font-family: Optima, serif;
 }
 

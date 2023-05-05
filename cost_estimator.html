@@ -53,7 +53,7 @@
             <label for="email">Email address:</label>
             <input type="text" id="email" class="form-control" placeholder="Please enter your email">
 
-            <label for="checkindate">Check-in date</label>
+            <label for="checkindate">Check-in date:</label>
             <input type="date" name="checkindate" class="form-control" id="checkin">
             <label for="days">Number of days: (1-28)</label>
             <input type="number" id="days" class="form-control" min="1" max="28">
@@ -63,27 +63,27 @@
             <input type="number" id="children" class="form-control" min="0" max="4">
 
             <fieldset>
-                <legend>Room type:</legend>
-                <input type="radio" id="roomtype1" name="roomtype" value="Queen">
-                <label for="roomtype1">Queen</label>
-                <input type="radio" id="roomtype2" name="roomtype" value="King">
-                <label for="roomtype2">King</label>
-                <input type="radio" id="roomtype3" name="roomtype" value="2bed">
-                <label for="roomtype3">2-bedroom Suite</label>
+                <h5>Room type:</h5>
+                <input type="radio" class="form-check-input" id="roomtype1" name="roomtype" value="Queen">
+                <label for="roomtype1" class="form-check-label">Queen</label>
+                <input type="radio" class="form-check-input" id="roomtype2" name="roomtype" value="King">
+                <label for="roomtype2" class="form-check-label">King</label>
+                <input type="radio" class="form-check-input" id="roomtype3" name="roomtype" value="2bed">
+                <label for="roomtype3" class="form-check-label">2-bedroom Suite</label>
             </fieldset>
 
             <div id="messageDiv">
-
+                <!-- Error message appears when exceeding max occupancy -->
             </div>
 
             <fieldset>
-                <legend>Discount options:</legend>
-                <input type="radio" id="discount1" name="discount" value="None">
-                <label for="discount1">None</label>
-                <input type="radio" id="discount2" name="discount" value="AA">
-                <label for="discount2">AAA/ Senior</label>
-                <input type="radio" id="discount3" name="discount" value="Military">
-                <label for="discount3">Military</label>
+                <h5>Discount options:</h5>
+                <input type="radio" class="form-check-input" id="discount1" name="discount" value="None">
+                <label for="discount1" class="form-check-label">None</label>
+                <input type="radio" class="form-check-input" id="discount2" name="discount" value="AA">
+                <label for="discount2" class="form-check-label">AAA/ Senior</label>
+                <input type="radio" class="form-check-input" id="discount3" name="discount" value="Military">
+                <label for="discount3" class="form-check-label">Military</label>
             </fieldset>
 
             <hr>
