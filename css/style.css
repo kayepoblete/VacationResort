@@ -13,6 +13,27 @@ nav a:hover {
     border-bottom: solid;
 }
 
+#costForm {
+    width: 50%;
+    margin: 3% auto 3% auto;
+}
+
+
+
+h1, h3, div, label, legend {
+    font-family: Optima, serif;
+}
+
 p {
-    font-family: Optima;
+    font-family: Optima, serif;
+}
+
+#displayCost {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: right;
+}
+
+#displayTotalWithTax {
+    font-weight: bold;
 }
